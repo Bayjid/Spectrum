@@ -1,0 +1,52 @@
+{
+  "scale": {
+    "sfo1": {
+      "min": 1,
+      "max": "auto"
+    }
+  },
+  "env": {
+    "DEBUG": "shared:rethinkdb:db-query-cache",
+    "S3_TOKEN": "@s3-token",
+    "S3_SECRET": "@s3-secret",
+    "COMPOSE_RETHINKDB_PASSWORD": "@github-compose-rethinkdb-password",
+    "COMPOSE_RETHINKDB_URL": "@github-compose-rethinkdb-url",
+    "COMPOSE_RETHINKDB_PORT": "@github-compose-rethinkdb-port",
+    "AWS_RETHINKDB_PASSWORD": "@aws-rethinkdb-password",
+    "AWS_RETHINKDB_URL": "@aws-rethinkdb-url",
+    "AWS_RETHINKDB_PORT": "@aws-rethinkdb-port",
+    "COMPOSE_REDIS_PASSWORD": "@compose-redis-password",
+    "COMPOSE_REDIS_URL": "@compose-redis-url",
+    "COMPOSE_REDIS_PORT": "@compose-redis-port",
+    "REDIS_CACHE_PORT": "@redis-labs-port",
+    "REDIS_CACHE_URL": "@redis-labs-url",
+    "REDIS_CACHE_PASSWORD": "@redis-labs-password",
+    "VAPID_PUBLIC_KEY": "@vapid-public-key",
+    "VAPID_PRIVATE_KEY": "@vapid-private-key",
+    "OPTICS_API_KEY": "@optics-api-key",
+    "TWITTER_OAUTH_CLIENT_ID": "@twitter-oauth-client-id",
+    "TWITTER_OAUTH_CLIENT_SECRET": "@twitter-oauth-client-secret",
+    "FACEBOOK_OAUTH_CLIENT_ID": "@facebook-oauth-client-id",
+    "FACEBOOK_OAUTH_CLIENT_SECRET": "@facebook-oauth-client-secret",
+    "GOOGLE_OAUTH_CLIENT_SECRET": "@google-oauth-client-secret",
+    "GOOGLE_OAUTH_CLIENT_ID": "@google-oauth-client-id",
+    "GITHUB_OAUTH_CLIENT_SECRET": "@github-oauth-client-secret",
+    "GITHUB_OAUTH_CLIENT_ID": "@github-oauth-client-id",
+    "SLACK_SECRET": "41f164356a2b0b3b004d1b23c3f7650d",
+    "SENDGRID_API_KEY": "@sendgrid-api-key",
+    "EMAIL_JWT_SIGNATURE": "@email-jwt-signature",
+    "PERSPECTIVE_API_KEY": "@perspective-api-key",
+    "SESSION_COOKIE_SECRET": "@session-cookie-secret",
+    "ALGOLIA_APP_ID": "W9DFE5RA88",
+    "ALGOLIA_API_SECRET": "27937f305000f3c5b7a3a01b5aaaacce",
+    "API_TOKEN_SECRET": "@api-token-secret",
+    "SENTRY_DSN_CLIENT": "@sentry-dsn-client",
+    "SENTRY_DSN_SERVER": "@sentry-dsn-server",
+    "AMPLITUDE_API_KEY": "@amplitude-api-key",
+    "AMPLITUDE_API_KEY_DEVELOPMENT": "@amplitude-api-key-development",
+    "ENCRYPTION_KEY": "@encryption-key",
+    "IMGIX_PROXY_SECURITY_KEY": "@imgix-proxy-security-key",
+    "IMGIX_SECURITY_KEY": "@imgix-security-key",
+    "DATADOG_API_KEY": "@datadog-api-key"
+  }
+}

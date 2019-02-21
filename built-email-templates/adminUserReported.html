@@ -1,0 +1,60 @@
+<html>
+<head></head>
+<body>
+<p>-
+
+
+<!-- 
+  START_CONFIG
+  { 
+    "production": {
+      "version": "1af007aa-a4f6-402f-b237-42aaff8a4fec",
+      "template": "d-2610f4efe7cc435486f91eaaea2de9bc"
+    }
+  }
+  END_CONFIG
+-->
+
+
+
+</p>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>{{{subject}}}</title>
+
+
+
+  <div style="display: none; max-height: 0px; overflow: hidden;">
+    {{preheader}}
+  </div>
+
+  <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
+  <div style="display: none; max-height: 0px; overflow: hidden;">
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+     ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+  </div>
+
+  <p>{{reportedUser.username}} was reported by {{reportingUser.username}} for reason: "{{reason}}"</p>
+
+  <ul>
+    <li>User being reported: <a href="https://spectrum.chat/users/{{ reportedUser.username }}">{{reportedUser.name}}
+        (@{{reportedUser.username}})</a>
+</li>
+    <li>Reported by: <a href="https://spectrum.chat/users/{{ reportingUser.username }}">{{reportingUser.name}}
+        (@{{reportingUser.username}})</a>
+</li>
+  </ul>
+
+
+</body>
+</html>
